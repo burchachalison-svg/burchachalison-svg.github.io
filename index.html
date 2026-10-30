@@ -1,9 +1,102 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Website</title>
-  </head>
-  <body>
-    <h1>Hello, world! My website is live!</h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f4f7f6;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #2b5876, #4e4376);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+    .card h2 {
+      color: #2b5876;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #f4f7f6;
+      padding-bottom: 8px;
+    }
+    .btn {
+      display: inline-block;
+      background: #2b5876;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #4e4376;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>Web Developer & Tech Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I am building my official website on GitHub Pages. I love learning web design, coding, and building digital projects.</p>
+    </div>
+
+    <div class="card">
+      <h2>My Projects</h2>
+      <p>Check back soon to see my latest work and ongoing web developments!</p>
+      <a href="#" class="btn">View Github</a>
+    </div>
+
+    <div class="card">
+      <h2>Get in Touch</h2>
+      <p>Feel free to connect with me for collaborations or inquiries.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Powered by GitHub Pages
+  </footer>
+
+</body>
 </html>
